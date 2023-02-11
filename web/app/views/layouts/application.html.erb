@@ -10,6 +10,8 @@
     <%= javascript_include_tag "application", "data-turbo-track": "reload", defer: true %>
   </head>
 
+<%= link_to blogs_path, "blog" %>
+
   <body>
     <div id="root"></div>
     <%= yield %>

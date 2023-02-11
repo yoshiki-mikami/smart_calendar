@@ -1,1 +1,6 @@
 /* Application styles */
+/*
+*= require simple_calendar #こちらを追加
+*= require_tree .
+*= require_self
+*/
